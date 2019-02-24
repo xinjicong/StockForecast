@@ -23,7 +23,7 @@ Y = daily['close'][:408]
 EPOCH = 100
 BATCH_SIZE = 64  # 每批数据数量
 TIME_STEP = 8  # 时间序列长度
-INPUT_SIZE = 1  # 8个特征
+INPUT_SIZE = 1  # 1个特征
 LR = 0.01  # 学习率
 
 # 标准化数据
